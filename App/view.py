@@ -59,7 +59,7 @@ def loadBooks(control):
     Carga los libros
     """
     books = controller.loadBooks(control,
-                                 "GoodReads/books-small.csv")
+                                 "GoodReads/books.csv")
     return books
 
 
@@ -77,7 +77,7 @@ def loadBooksTags(control):
     Cargar los Tags de libros
     """
     # TODO: Mods de Est-1 en el Lab 2
-    booktags = controller.loadBooksTags(control, "GoodReads/book_tags-small.csv")
+    booktags = controller.loadBooksTags(control, "GoodReads/book_tags.csv")
     return booktags
     pass
 
